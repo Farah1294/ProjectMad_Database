@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/signin"
+
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@drawable/logo1"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Welcome Back"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvStmt1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Sign in to continue"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="-15dp"
+        />
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/custom_edittext"
+        android:hint="Email"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="10dp"></EditText>
+
+    <EditText
+
+        android:id="@+id/etPassword"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom_edittext"
+        android:padding="8dp"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        >
+
+    </EditText>
+
+    <TextView
+
+        android:id="@+id/tvforgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:text="Forget Password"
+        android:textColor="@color/blue2"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <!--        android:onClick="go_forgetpass"-->
+
+
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="325dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/button1"
+        android:text="LOGIN"
+        android:textSize="18sp"
+        app:cornerRadius="10dp">
+
+    </Button>
+
+
+
+
+    <TextView
+
+        android:id="@+id/tvRegister2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:text="Not Yet registered? "
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginRight="40dp"
+
+        />
+
+    <TextView
+
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="-35dp"
+        android:text="Sign Up Now!"
+        android:textColor="@color/blue2"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginLeft="70dp"/>
+    <!--        android:onClick="go_SignUp"-->
+
+
+
+
+</LinearLayout>
