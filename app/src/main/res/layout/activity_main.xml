@@ -23,13 +23,13 @@
     <ProgressBar
         android:id="@+id/progress_bar"
         style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="80dp"
-        android:progressTint="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
         android:max="100"
-        />
+        android:progressTint="@android:color/white" />
 
 
 </RelativeLayout>

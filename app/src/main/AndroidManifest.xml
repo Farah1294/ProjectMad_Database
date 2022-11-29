@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login_App_V2">
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
             android:name=".Intro"
             android:exported="false" />
         <activity
