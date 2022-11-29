@@ -19,4 +19,9 @@
         <item name="android:windowBackground">@drawable/bg_splash</item>
     </style>
     <!--splash theme end-->
+
+    <style name="bgImageStyle" parent = "ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name = "cornerFamily">cut</item>
+        <item name="cornerSize">0%</item>
+    </style>
 </resources>
